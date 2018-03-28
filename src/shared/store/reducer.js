@@ -53,7 +53,14 @@ const initialState = {
 const rootReducer = (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.END_TURN:
-            return { ...state, turn: state.turn + 1 }
+            return {
+                ...state,
+                turn: state.turn + 1,
+                band: {
+                    ...state.band,
+                    funds: state.band.funds - Object.keys(state.bandMembers).length * 15
+                }
+            }
         default:
             return state
     }
