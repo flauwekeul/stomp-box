@@ -1,7 +1,7 @@
 import React from 'react'
-import './Member.css'
+import './BandMember.css'
 
-const Member = () => [
+const BandMember = () => [
     <div key="1" className="member">
         <h2>Kurt Cocain</h2>
         <p>Guitar</p>
@@ -79,4 +79,4 @@ const Member = () => [
     </div>
 ]
 
-export default Member
+export default BandMember

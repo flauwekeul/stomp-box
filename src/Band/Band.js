@@ -1,11 +1,11 @@
 import React from 'react'
 
 import './Band.css'
-import Member from './Member'
+import BandMember from './BandMember'
 
 const Band = () => (
     <div className="band">
-        <Member />
+        <BandMember />
     </div>
 )
 
