@@ -6,9 +6,9 @@ import BandMember from './BandMember'
 
 const BandMembers = ({ bandMembers }) => (
     <div className="band">
-        {bandMembers.map(bandMember =>
+        {bandMembers.map((bandMember, i) =>
             <BandMember
-                key={bandMember.id}
+                key={i}
                 {...bandMember}
             />
         )}
