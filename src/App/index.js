@@ -1,12 +1,12 @@
 import React from 'react'
 
 import StatusBar from '../StatusBar'
-import Band from '../Band'
+import BandMembers from '../BandMembers'
 
 const App = () => (
   <div>
     <StatusBar/>
-    <Band/>
+    <BandMembers/>
     <button>End turn</button>
   </div>
 )
