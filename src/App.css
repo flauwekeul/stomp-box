@@ -1,0 +1,7 @@
+.band-members {
+    display: flex;
+}
+
+.band-member {
+    flex: auto;
+}
