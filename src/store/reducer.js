@@ -1,6 +1,8 @@
 import { INSTRUMENTS } from '../shared/constants'
+import * as actionTypes from './action-types';
 
 const initialState = {
+    turn: 0,
     bandMembers: {
         1: {
             id: 1,
@@ -46,6 +48,8 @@ const initialState = {
 
 const rootReducer = (state = initialState, action) => {
     switch (action.type) {
+        case actionTypes.END_TURN:
+            return { ...state, turn: state.turn + 1 }
         default:
             return state
     }
