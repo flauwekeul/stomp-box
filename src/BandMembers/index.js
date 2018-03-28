@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import BandMembers from './BandMembers'
 
 const mapStateToProps = ({ bandMembers }) => ({
-    bandMembers: Object.keys(bandMembers).map(id => bandMembers[id])
+    bandMembers: Object.values(bandMembers)
 })
 
 // const mapDispatchToProps

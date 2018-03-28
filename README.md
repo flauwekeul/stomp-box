@@ -57,11 +57,11 @@ The band can:
 
 ### Attributes
 
-* creativity (0..5) (determines quality of lyrics/riffs)
-* dexterity (0..5) (max skill level (less for drums))
-* rhythm (0..5) (playing on the beat)
-* vocals (0..5) (determines singing skill)
-* looks (0..5) (sex sells)
+* creativity (0..11) (determines quality of lyrics/riffs)
+* dexterity (0..11) (max skill level (less for drums))
+* rhythm (0..11) (playing on the beat)
+* vocals (0..11) (determines singing skill)
+* looks (0..11) (sex sells)
 
 ## Songs
 
@@ -72,9 +72,9 @@ The band can:
 
 ### Attributes
 
-* virtuosity (0..5) (simple/complex, determines required skill level and limits audience)
-* originality (0..5) (not original is not necessarily bad, familiarity sells)
-* variety (0..5) (dull or surprising)
+* virtuosity (0..11) (simple/complex, determines required skill level and limits audience)
+* originality (0..11) (not original is not necessarily bad, familiarity sells)
+* variety (0..11) (dull or surprising)
 
 ## Resources
 
