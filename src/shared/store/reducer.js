@@ -1,4 +1,4 @@
-import { INSTRUMENTS } from '../shared/constants'
+import { INSTRUMENTS } from '../constants'
 import * as actionTypes from './action-types';
 
 const initialState = {
