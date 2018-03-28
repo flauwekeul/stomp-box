@@ -4,7 +4,7 @@ import './BandMember.css'
 import { toPercent } from '../shared/utils'
 
 const BandMember = bandMember => (
-    <div className="member">
+    <div className="band-member">
         <h2>{bandMember.name}</h2>
         <p>{bandMember.instrument}</p>
         <label>
