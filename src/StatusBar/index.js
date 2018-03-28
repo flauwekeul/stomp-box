@@ -1,20 +1,20 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import { identity } from '../shared/utils'
+import { toPercent } from '../shared/utils'
 
-const StatusBar = ({ turn }) => (
+const StatusBar = ({ turn, band }) => (
     <div>
         <h1>Nerdvana</h1>
         <ul>
             <li>Time active: {turn} days</li>
-            <li>Funds: $100</li>
-            <li>Cohesion: 30%</li>
+            <li>Funds: ${band.funds}</li>
+            <li>Cohesion: {toPercent(band.cohesion)}</li>
         </ul>
     </div>
 );
 
-const mapStateToProps = identity
+const mapStateToProps = state => state
 
 export default connect(
     mapStateToProps

@@ -3,6 +3,10 @@ import * as actionTypes from './action-types';
 
 const initialState = {
     turn: 0,
+    band: {
+        funds: 5000,
+        cohesion: 0.3,
+    },
     bandMembers: {
         1: {
             id: 1,
