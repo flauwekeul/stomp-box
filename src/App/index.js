@@ -5,8 +5,8 @@ import Band from '../Band'
 
 const App = () => (
   <div>
-    <StatusBar/>,
-    <Band/>,
+    <StatusBar/>
+    <Band/>
     <button>End turn</button>
   </div>
 )

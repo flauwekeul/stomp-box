@@ -1,4 +1,11 @@
 import { connect } from 'react-redux'
-import Band from './Band'
+import BandMembers from './BandMembers'
 
-export default connect()(Band)
+const mapStateToProps = state => state
+
+// const mapDispatchToProps
+
+export default connect(
+    mapStateToProps,
+    // mapDispatchToProps
+)(BandMembers)
