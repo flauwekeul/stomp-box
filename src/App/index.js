@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-import StatusBar from '../StatusBar';
-import Band from '../Band';
+import StatusBar from '../StatusBar'
+import Band from '../Band'
 
 const App = () => (
   <div>
-    <StatusBar/>
-    <Band/>
+    <StatusBar/>,
+    <Band/>,
     <button>End turn</button>
   </div>
-);
+)
 
-export default App;
+export default App

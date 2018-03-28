@@ -1,12 +1,4 @@
-import React from 'react'
+import { connect } from 'react-redux'
+import Band from './Band'
 
-import './Band.css'
-import Member from './Member'
-
-const Band = () => (
-    <div className="band">
-        <Member/>
-    </div>
-)
-
-export default Band
+export default connect()(Band)
