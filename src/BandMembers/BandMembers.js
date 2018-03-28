@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import './BandMembers.css'
 import BandMember from '../BandMember'
@@ -14,13 +13,5 @@ const BandMembers = ({ bandMembers }) => (
         )}
     </div>
 )
-
-BandMembers.propTypes = {
-    bandMembers: PropTypes.arrayOf(
-        PropTypes.shape({
-            name: PropTypes.string.isRequired
-        })
-    )
-}
 
 export default BandMembers
